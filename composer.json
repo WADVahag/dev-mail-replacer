@@ -1,0 +1,20 @@
+{
+    "name": "wadvahag/dev-mail-replacer",
+    "description": "this is a package for changing the mailer function for development enviroment in Laravel, this package allows to change the mail destination when project is in development...",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vahagn Grigoryan",
+            "email": "vahagn.grigoryan.92@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wadvahag\\DevMailReplacer\\DevMailReplacerServiceProvider"
+            ]
+        }
+    }
+}
