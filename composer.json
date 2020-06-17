@@ -8,6 +8,11 @@
             "email": "vahagn.grigoryan.92@mail.ru"
         }
     ],
+       "autoload": {
+        "psr-4": {
+            "Wadvahag\\DevMailReplacer\\": "src"
+        }
+    },
     "minimum-stability": "stable",
     "require": {},
     "extra": {
