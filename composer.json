@@ -8,7 +8,7 @@
             "email": "vahagn.grigoryan.92@mail.ru"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {},
     "extra": {
         "laravel": {
