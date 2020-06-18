@@ -37,11 +37,13 @@ class DevMailReplacerServiceProvider extends ServiceProvider
     public function register()
     {
 
-/**
- * Merge configs from local (package) configs, this way package should work without publishing => with default configs.
- * 
- * When merging configs, first argument is array (from local(package) config file), second is config key => filename without extension
- */
+    /**
+     * Merge configs from local (package) configs, 
+     * this way package should work without publishing => with default configs.
+     * 
+     * When merging configs, first argument is array (from local(package) config file),
+     *  second is config key => filename without extension
+     */
 
         $this->mergeConfigFrom(
             __DIR__ . '/../config/dev-mail-replacer.php', 'dev-mail-replacer'
